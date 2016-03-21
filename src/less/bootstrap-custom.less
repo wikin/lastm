@@ -1,0 +1,15 @@
+@font-family-sans-serif:  "Open Sans",sans-serif;
+@font-size-base:					14px;
+@headings-font-weight:    300;
+@input-border-radius:     0;
+@input-border-focus:      @brand-primary;
+@icon-font-path:          "../../bower_modules/bootstrap/fonts/";
+
+
+.form-control-focus(@color: @input-border-focus) {
+  &:focus {
+    border-color: @color;
+    outline: 0;
+    .box-shadow(none);
+  }
+}

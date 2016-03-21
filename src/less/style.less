@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,800,700&subset=latin,latin-ext);
+
+@import "../bower_modules/bootstrap/less/variables.less";
+@brand-primary:#fd694d;
+
+@btn-default-color:              @brand-primary;
+@btn-default-border:             @brand-primary;
+
+@import "bootstrap.less";
+
+html,body{height:100%}
+
+.section-start{
+	background:@brand-primary;
+	color:white;
+	height:100%;
+}
+
+.section-start{
+	.container{
+		height:100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content:center;
+		align-content:center;
+	}
+	text-align:center;
+	img{
+		display:block;margin:40px auto 80px auto;
+		max-width: 100%;
+		width:400px;
+	}
+	hr{
+		margin:0 auto;
+		border-top:6px solid white;
+		width:60px;
+	}
+	.jumbotron{background:transparent}
+
+}
+footer{padding:20px;text-align:center}
