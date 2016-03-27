@@ -16,6 +16,7 @@ gulp.task('js', function () {
 
     combinedStream.append(  gulp.src('./src/bower_modules/jquery/dist/jquery.js') );
     combinedStream.append(  gulp.src('./src/bower_modules/bootstrap/dist/js/bootstrap.min.js') );
+    combinedStream.append(  gulp.src('./src/js/script.js') );
 
     var combinedJS = combinedStream.pipe(concat('js/script.js'));
     return combinedJS
@@ -73,7 +74,7 @@ gulp.task('html', function() {
 
 
 
-gulp.task('default', ['html', 'less' ], function(callback) {
+gulp.task('default', ['html', 'less', 'js' ], function(callback) {
     callback();
     console.log('\nPlaced optimized files in ' + ('dist/\n'));
 });
