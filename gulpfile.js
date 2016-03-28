@@ -65,7 +65,7 @@ gulp.task('html', function() {
 
 
     return es.concat(root)
-        .pipe(minifyHTML({ empty: true, quotes: true }))
+        //.pipe(minifyHTML({ empty: true, quotes: true }))
         .pipe(gulp.dest('./dist/'));
 });
 

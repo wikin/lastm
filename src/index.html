@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-<!--
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
--->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/android-chrome-192x192.png" sizes="192x192">
 
     <!-- build:css -->
         <link rel="stylesheet/less" type="text/css" href="less/style.less">
@@ -27,11 +25,11 @@
         <script src="js/script.js"></script>
     <!-- endbuild -->
 
-
+    <title>Last Messages</title>
 </head>
 <body>
 
-    <header>
+        <header>
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
 
@@ -42,11 +40,15 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a class="navbar-brand" href="."><span class="logo"><span>Last</span> <span>Messages</span></span></a>
+                    <a class="navbar-brand" href="."><span class="logo-icon"></span></a>
 
                 </div>
 
                 <div class="collapse navbar-collapse menu"  id="menu">
+
+                    <div  class="navbar-left">
+                        <a class="navbar-brand" href="."><span class="logo-name"><span>Last</span> <span>Messages</span></span></a>
+                    </div>
 
                     <div  class="navbar-form navbar-right text-center">
                       <ul>
@@ -106,6 +108,7 @@
 
 
 
+
     <section class="hero">
         <div class="container">
             <div class="herobox">
@@ -126,17 +129,17 @@
         <div class="container">
             <div class="row text-center">
 
-                <div class="col col-md-4">
+                <div class="col-md-4">
                     <div class="block-image"><img src="img/img1.jpg"></div>
                     <h2>Leave custom messages for your children and loved ones</h2>
                     <p>Leave a message for future delivery, either after your death, or just in the future, now, when the&nbsp;mood and emotion strikes, so they know much&nbsp;you&nbsp;care.</p>
                 </div>
-                <div class="col col-md-4">
+                <div class="col-md-4">
                     <div class="block-image"><img src="img/img2.jpg"></div>
                     <h2>Stay in touch with your friends&nbsp;and family</h2>
                     <p>Leave them a message for later delivery when they’re on your mind. Import your address book and&nbsp;create greetings for the upcoming years when its&nbsp;convenient to you.</p>
                 </div>
-                <div class="col col-md-4">
+                <div class="col-md-4">
                     <div class="block-image"><img src="img/img3.jpg"></div>
                     <h2>Record a voice or video message. Or opt for email and SMS.</h2>
                     <p>Don’t let the special people in your life forget the sound of your voice, or today’s image, make recordings at various point in your life for your children and generations to come.</p>
@@ -149,20 +152,28 @@
     
     <footer class="footer">
         <nav class="navbar navbar-default">
-          <div class="container-fluid">
+            <div class="container-fluid">
 
-            <div class="navbar-header">
-                <div class="navbar-text">&copy; LastMessages 2016</div>
+                <div class="navbar-header">
+                    <div class="navbar-text">&copy; LastMessages 2016</div>
+                </div>
+
+                <ul class="nav navbar-nav">
+                    <li><a href="terms.html">Terms of Use</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="in-memoriam.html">In Memoriam</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+
+                <div class="navbar-right navbar-text">
+                    <a href=""><span class="socialicon socialicon-facebook"></span></a>
+                    <a href=""><span class="socialicon socialicon-twitter"></span></a>
+                    <a href=""><span class="socialicon socialicon-google"></span></a>
+                    <a href=""><span class="socialicon socialicon-pinterest"></span></a>
+                </div>
             </div>
-
-            <ul class="nav navbar-nav">
-                <li><a href="terms.html">Terms of Use</a></li>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="in-memoriam.html">In Memoriam</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-            </ul>
         
-        </div>
+        </nav>
                           
     </footer>
 
