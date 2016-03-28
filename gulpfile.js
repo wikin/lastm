@@ -39,7 +39,7 @@ gulp.task('less', function () {
         fontFiles = gulp.src('./src/bower_modules/bootstrap/dist/fonts/*', { base: './src/bower_modules/bootstrap/dist/' }),
 //        iconCss = gulp.src('src/icon/style.css')
 //                .pipe(minifyCSS()),
-    //    iconFiles = gulp.src('./src/icon/fonts/*', { base: './src/icon/' }),
+//        iconFiles = gulp.src('./src/icon/fonts/*', { base: './src/icon/' }),
         imgFiles = gulp.src('./src/img/**/*', { base: './src/' });
 
 
@@ -48,7 +48,7 @@ gulp.task('less', function () {
     var combinedCss = combinedStream
         .pipe(concat('css/style.css'));
 
-    return es.concat(combinedCss, /*fontFiles,*/ imgFiles)
+    return es.concat(combinedCss, fontFiles, imgFiles)
         .pipe(gulp.dest('./dist/'));
 
 });
