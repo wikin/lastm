@@ -25,8 +25,7 @@
         <script src="js/script.js"></script>
     <!-- endbuild -->
 
-    <title>Last Messages - In loving memory of Hank Jacoby</title>
-
+    <title>Last Messages</title>
 </head>
 <body>
 
@@ -60,10 +59,10 @@
 
 
                     <ul class="nav navbar-nav navbar-right text-center">
-                        <li><a href="how-it-works.html">How It Works</a></li>
-                        <li><a href="plan-details.html">Plan Details</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="how-it-works.aspx">How It Works</a></li>
+                        <li><a href="plan-details.aspx">Plan Details</a></li>
+                        <li><a href="faq.aspx">FAQ</a></li>
+                        <li><a href="contact.aspx">Contact</a></li>
                     </ul>
 
                 </div>
@@ -105,81 +104,3 @@
         </div>
 
     </header>
-
-
-
-
-        
-    <section class="text">
-        <h1>In loving memory of Hank&nbsp;Jacoby<br>1962-2015</h1>
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-
-                    <div class="in-memoriam">
-                        <div class="row">
-                            <div class="col-sm-8">
-                               <img src="img/jacoby1.jpg">
-                            </div>
-                            <div class="col-sm-4">
-                               <img src="img/jacoby2.jpg">
-                            </div>
-                        </div>
-
-                        <blockquote>
-                            &ldquo;Someone like my dad comes along once in a million years.&rdquo;
-                            <footer>Conner Jacoby</footer>
-                        </blockquote>
-
-
-                        <div class="row">
-                            <div class="col-sm-4">
-                               <img src="img/jacoby3.jpg">
-                            </div>
-                            <div class="col-sm-5">
-                               <img src="img/jacoby4.jpg">
-                               <img src="img/jacoby5.jpg">
-                            </div>
-                            <div class="col-sm-3">
-                               <img src="img/jacoby6.jpg">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    
-    
-    <footer class="footer">
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-
-                <div class="navbar-header">
-                    <div class="navbar-text">&copy; LastMessages 2016</div>
-                </div>
-
-                <ul class="nav navbar-nav">
-                    <li><a href="terms.html">Terms of Use</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="in-memoriam.html">In Memoriam</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                </ul>
-
-                <div class="navbar-right navbar-text">
-                    <a href=""><span class="socialicon socialicon-facebook"></span></a>
-                    <a href=""><span class="socialicon socialicon-twitter"></span></a>
-                    <a href=""><span class="socialicon socialicon-google"></span></a>
-                    <a href=""><span class="socialicon socialicon-pinterest"></span></a>
-                </div>
-            </div>
-        
-        </nav>
-                          
-    </footer>
-
-</body>
-</html>

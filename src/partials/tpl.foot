@@ -1,0 +1,31 @@
+
+    
+    <footer class="footer">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <div class="navbar-text">&copy; LastMessages 2016</div>
+                </div>
+
+                <ul class="nav navbar-nav">
+                    <li><a href="terms.aspx">Terms of Use</a></li>
+                    <li><a href="privacy.aspx">Privacy Policy</a></li>
+                    <li><a href="in-memoriam.aspx">In Memoriam</a></li>
+                    <li><a href="about-us.aspx">About Us</a></li>
+                </ul>
+
+                <div class="navbar-right navbar-text">
+                    <a href=""><span class="socialicon socialicon-facebook"></span></a>
+                    <a href=""><span class="socialicon socialicon-twitter"></span></a>
+                    <a href=""><span class="socialicon socialicon-google"></span></a>
+                    <a href=""><span class="socialicon socialicon-pinterest"></span></a>
+                </div>
+            </div>
+        
+        </nav>
+                          
+    </footer>
+
+</body>
+</html>

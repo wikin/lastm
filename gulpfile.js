@@ -3,7 +3,7 @@ var fs = require('fs'), vm = require('vm'), merge = require('deeply'),  es = req
 
 // Gulp and plugins
 var gulp = require('gulp'), concat = require('gulp-concat'), 
-    replace = require('gulp-replace'), uglify = require('gulp-uglify'), htmlreplace = require('gulp-html-replace'),
+    replace = require('gulp-replace'), uglify = require('gulp-uglify'), htmlreplace = require('gulp-html-replace'), inject = require('gulp-inject'), rename = require("gulp-rename"),
     minifyCSS = require('gulp-minify-css'), minifyHTML = require('gulp-minify-html'), less = require('gulp-less'),
     autoprefixer = require('gulp-autoprefixer');
 
@@ -56,17 +56,26 @@ gulp.task('less', function () {
 
 // Copies index.html, replacing <script> and <link> tags to reference production URLs
 gulp.task('html', function() {
-    var root = gulp.src('./src/*.html')
+
+    return gulp.src('./src/*.aspx')
+       .pipe(inject(gulp.src(['./src/partials/tpl.*']), {
+            starttag: '<!-- inject:tpl:{{ext}} -->',
+            transform: function (filePath, file) {
+                // return file contents as string 
+                return file.contents.toString('utf8')
+            },
+            removeTags:true
+        }))
         .pipe(htmlreplace({
             'css': 'css/style.css',
             'js': 'js/script.js'
-        }));
-
-
-
-    return es.concat(root)
+        }))
+        .pipe(replace(/\.aspx\"/g, '.html"'))
         //.pipe(minifyHTML({ empty: true, quotes: true }))
-        .pipe(gulp.dest('./dist/'));
+        .pipe(rename({extname: ".html"}))
+        .pipe(gulp.dest('./dist'));
+
+
 });
 
 
