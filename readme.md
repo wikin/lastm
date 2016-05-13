@@ -1,4 +1,4 @@
-Last Messages
+Templates for Last Messages
 ========
 
 ###Installation:
@@ -12,3 +12,6 @@ npm install
 ```
 npm run gulp
 ```
+
+###View templates from dist folder
+https://rawgit.com/wikin/lastm/master/dist/index.html
