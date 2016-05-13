@@ -1,7 +1,7 @@
 Templates for Last Messages
 ========
 
-Templates and minificated js and css are in *dist* folder
+Templates and minificated js and css are in **dist** folder
 
 ###Preview templates from dist folder
 https://rawgit.com/wikin/lastm/master/dist/index.html
