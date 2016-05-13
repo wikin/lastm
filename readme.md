@@ -1,17 +1,19 @@
 Templates for Last Messages
 ========
 
-###Installation:
+Templates and minificated js and css are in *dist* folder
+
+###Preview templates from dist folder
+https://rawgit.com/wikin/lastm/master/dist/index.html
+
+
+###Installation and build:
+* install node.js
+* run the commnads in project folder
 
 ```
 npm install
-```
-
-###Build content of dist folder from src folder:
-
-```
 npm run gulp
 ```
 
-###View templates from dist folder
-https://rawgit.com/wikin/lastm/master/dist/index.html
+
