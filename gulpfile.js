@@ -16,6 +16,7 @@ gulp.task('js', function () {
 
     combinedStream.append(  gulp.src('./src/bower_modules/jquery/dist/jquery.js') );
     combinedStream.append(  gulp.src('./src/bower_modules/bootstrap/dist/js/bootstrap.min.js') );
+    combinedStream.append(  gulp.src('./src/bower_modules/bootstrap-validator/dist/validator.js') );
     combinedStream.append(  gulp.src('./src/js/script.js') );
 
     var combinedJS = combinedStream.pipe(concat('js/script.js'));

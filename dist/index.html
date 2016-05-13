@@ -72,18 +72,22 @@
                     <div class="modal-body">
                         <h2 id="loginLabel">Log in To Last&nbsp;Messages</h2>
 
-                        <form>
+                        <form action="javascript:alert('submit')">
 
-                            <div class="form-group">
+                            <div class="form-group has-feedback">
                                 <label>EMAIL</label>
-                                <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                                <input id="textinput" name="textinput" type="email" placeholder="" class="form-control input-md" required data-error="Please enter valid email address">
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                <div class="help-block with-errors"></div>
                             </div>
-                            <div class="form-group">
+                            <div class="form-group has-feedback">
                                 <label>PASSWORD</label>
-                                <input id="textinput" name="textinput" type="password" placeholder="" class="form-control input-md">
+                                <input id="textinput" name="textinput" type="password" placeholder="" class="form-control input-md" required data-error="Please enter your password">
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                <div class="help-block with-errors"></div>
                             </div>
 
-                            <button  class="btn btn-block btn-primary">Log in</button>
+                            <button type="submit"  class="btn btn-block btn-primary">Log in</button>
                             <div class="text-center">or</div>
                             <button  class="btn btn-block btn-facebook">Log in with Facebook</button>
         

@@ -1,4 +1,4 @@
-<!-- inject:tpl:foot -->
+<!-- inject:tpl:head-no-login -->
 <% Response.WriteFile ("partials/tpl.head-no-login") %>
 <!-- endinject -->
 
