@@ -477,8 +477,8 @@ header{
 			height:16px;
 			border-radius:100%;
 			position:absolute;
-			bottom:0;
-			right:0;
+			bottom:-4px;
+			right:-4px;
 			box-shadow:0 0 0 3px white;
 		}
 
@@ -486,6 +486,11 @@ header{
 			float:right;
 			margin-right:0;
 			margin-left:12px;
+			&:after{
+				left:-4px;
+				right:auto;
+			}
+
 		}
 	}
 	&-text{
