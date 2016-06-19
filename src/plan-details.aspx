@@ -18,7 +18,7 @@
                           <h2>Basic</h2>
 
                           <div class="circle">
-                              <div class="circle-image"><img src="img/logo.svg"></div>
+                              <div class="circle-image"><img src="img/plan-free.svg"></div>
                           </div>
 
                           
@@ -37,7 +37,7 @@
                           <h2>Premium</h2>
 
                           <div class="circle">
-                              <div class="circle-image"><img src="img/logo.svg"></div>
+                              <div class="circle-image"><img src="img/plan-premium.svg"></div>
                           </div>
 
                           
