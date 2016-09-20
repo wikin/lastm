@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/android-chrome-192x192.png" sizes="192x192">
+
+    <!-- build:css -->
+        <link rel="stylesheet/less" type="text/css" href="less/style.less">
+    <!-- endbuild -->
+
+    <!-- build:js -->
+        <script type="text/javascript" src="bower_modules/less/dist/less.js"></script>
+
+
+        <script src="bower_modules/jquery/dist/jquery.js"></script>
+        <script src="bower_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_modules/bootstrap-validator/dist/validator.js"></script>
+
+        <script src="js/script.js"></script>
+    <!-- endbuild -->
+
+    <title>Last Messages</title>
+</head>
+<body>
+
+        <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" href="."><span class="logo-icon"></span></a>
+
+                </div>
+
+                <div class="collapse navbar-collapse menu"  id="menu">
+
+                    <div  class="navbar-left">
+                        <a class="navbar-brand" href="."><span class="logo-name"><span>Last</span> <span>Messages</span></span></a>
+                    </div>
+
+                    <div  class="navbar-form navbar-right text-center">
+                      <ul>
+                        <li><a href="." class="btn btn-default">Logout</a></li>
+                      </ul>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right text-center">
+                        <li><a href="how-it-works.aspx">How It Works</a></li>
+                        <li><a href="plan-details.aspx">Plan Details</a></li>
+                        <li><a href="faq.aspx">FAQ</a></li>
+                        <li><a href="contact.aspx">Contact</a></li>
+                    </ul>
+
+                </div>
+
+          </div>
+        </nav>
+
+        
+    </header>

@@ -10,4 +10,6 @@ $(function(){
     $('.modal').on('shown.bs.modal', function (e) { 
         $(this).find('form:visible').validator() 
     });
+
+    $('[data-toggle="tooltip"]').tooltip()
 })
