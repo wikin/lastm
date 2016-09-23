@@ -29,7 +29,9 @@
                     <strong><a href="view-message.aspx">First Message</a></strong>
                     <div class="small">&mdash;</div>
                   </td>
-                  <td class="small">1</td>
+                  <td class="small">
+                    Jane Smith, Thomas Appleseed
+                  </td>
                   <td class="small">2</td>
                   <td class="small">Last Changed<br>9/20/2016 9:41 am</td>
                 </tr>
@@ -39,8 +41,10 @@
                     <strong><a href="view-message.aspx">Message for my wife</a></strong>
                     <div class="small">Lorem ipsum dolor sit amet, consectetur adipisici elit sed eiusmod</div>
                   </td>
-                  <td class="small">2</td>
-                  <td class="small">0</td>
+                  <td class="small">
+                    Jane Smith, Thomas Appleseed (+2&nbsp;more)
+                  </td>
+                  <td class="small">10</td>
                   <td class="small">Created<br>9/20/2016 9:41 am</td>
                 </tr>
                 <tr>
@@ -49,7 +53,7 @@
                     <strong><a href="view-message.aspx">Message for my lawyer</a></strong>
                     <div class="small">Lorem ipsum dolor sit amet, consectetur adipisici elit sed eiusmod</div>
                   </td>
-                  <td class="small">1</td>
+                  <td class="small">Thomas Appleseed</td>
                   <td class="small">10</td>
                   <td class="small">Created<br>9/21/2016 9:51 am</td>
                 </tr>
@@ -59,7 +63,7 @@
                     <strong><a href="view-message.aspx">Lorem ipsum dolor sit amet</a></strong>
                     <div class="small">Lorem ipsum dolor sit amet, consectetur adipisici elit sed eiusmod</div>
                   </td>
-                  <td class="small">1</td>
+                  <td class="small">Thomas Appleseed</td>
                   <td class="small">10</td>
                   <td class="small">Created<br>9/21/2016 9:51 am</td>
                 </tr>
@@ -69,7 +73,7 @@
                     <strong><a href="view-message.aspx">Lorem ipsum dolor sit amet</a></strong>
                     <div class="small">Lorem ipsum dolor sit amet, consectetur adipisici elit sed eiusmod</div>
                   </td>
-                  <td class="small">1</td>
+                  <td class="small">Thomas Appleseed</td>
                   <td class="small">10</td>
                   <td class="small">Created<br>9/21/2016 9:51 am</td>
                 </tr>
@@ -79,7 +83,7 @@
                     <strong><a href="view-message.aspx">Lorem ipsum dolor sit amet</a></strong>
                     <div class="small">Lorem ipsum dolor sit amet, consectetur adipisici elit sed eiusmod</div>
                   </td>
-                  <td class="small">1</td>
+                  <td class="small">Thomas Appleseed</td>
                   <td class="small">10</td>
                   <td class="small">Created<br>9/21/2016 9:51 am</td>
                 </tr>
@@ -89,7 +93,7 @@
                     <strong><a href="view-message.aspx">Lorem ipsum dolor sit amet</a></strong>
                     <div class="small">Lorem ipsum dolor sit amet, consectetur adipisici elit sed eiusmod</div>
                   </td>
-                  <td class="small">1</td>
+                  <td class="small">Thomas Appleseed</td>
                   <td class="small">10</td>
                   <td class="small">Created<br>9/21/2016 9:51 am</td>
                 </tr>

@@ -603,3 +603,45 @@ header{
 	.glyphicon-ok{color:@brand-primary}
 	.glyphicon-minus{color:@gray-light}
 }
+
+
+.notepaper {
+	white-space:pre-wrap;word-break: break-word;
+	line-height:2;
+	position: relative;
+	padding: 50px;
+	margin: 0 auto;
+	background-color: #f7f6f1;
+  background-image: -webkit-radial-gradient(center, cover, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1) 90%), url(../img/paper-background.jpg);
+  background-image: -moz-radial-gradient(center, cover, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1) 90%), url(../img/paper-background.jpg);
+	border:1px solid #eeeeee;
+}
+
+.notepaper:before, .notepaper:after{
+	position: absolute;
+	width: 40%;
+	height: 10px;
+	content: '';
+	left: 12px;
+	bottom: 16px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+} 
+
+.notepaper:after{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
